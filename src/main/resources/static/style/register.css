@@ -1,0 +1,54 @@
+        .register-banner {
+            width: 100%;
+            height: 130px;
+            background-color: #2A2D50;
+            color: #f8f9fa;
+            font-size: 30px;
+            text-align: center;
+            padding: 1px;
+        }
+        .register-banner h3{
+            margin-top: 30px;
+        }
+        .register-option {
+            width: 40%;
+            margin: 20px auto;
+        }
+        .register-option h4{
+            font-size: 30px;
+        }
+        #username {
+            margin-top: 20px;
+            width: 150px;
+            padding: 10px 30px;
+        }
+        #email {
+            margin-top: 20px;
+            width: 300px;
+            padding: 10px 30px;
+        }
+        #password {
+            margin-top: 20px;
+            width: 400px;
+            padding: 10px 30px;
+        }
+        #passwordCheck {
+            margin-top: 20px;
+            width: 400px;
+            padding: 10px 30px;
+        }
+        #displayName {
+            margin-top: 20px;
+            width: 300px;
+            padding: 10px 40px;
+        }
+        #register-complete-button {
+            width: 150px;
+            height: 50px;
+            padding: 10px 40px;
+            border: none;
+            color: #f8f9fa;
+            font-size: 16px;
+            background-color: #8C1700;
+            border-radius: 3px;
+        }

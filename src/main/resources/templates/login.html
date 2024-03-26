@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+       <link rel="stylesheet" href="/style/header.css">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/style/login.css">
+    <link rel="stylesheet" href="/style/nav.css">
+</head>
+<body>
+<div th:replace="~{ header.html::header}"></div>
+<div th:replace="~{ nav.html::navbar}"></div>
+    <div class="login-banner">
+        <h3>로그인</h3>
+    </div>
+    <form action="/login" method="'POST">
+        <div class="login-option">
+        	<div th:if="${param.error}">
+        		<h4>아이디나 비번 틀림 ㅠ</h4>
+        	</div>
+            <p>아이디</p>
+            <input name="memberName" id="username">
+            <br><br><br>
+            <p>비밀번호</p>
+            <input type="password" id="password">
+            <br><br>
+            <button type="submit" id="login-button">로그인</button>
+        </div>
+    </form>
+</body>
+</html>

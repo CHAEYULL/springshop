@@ -1,0 +1,36 @@
+header {
+    overflow: hidden;
+    width: 100%;
+    height: 35px;
+    background-color: #232B2D;
+}
+.header-items {
+	width:100%;
+    display: flex;
+    justify-content: end;
+    margin-left: -200px;
+}
+header a {
+	margin-top:3px;
+    color: #f8f9fa;
+    width: 60px;
+    padding: 2px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration : none;
+}
+header a:hover {
+    transition: all 0.3s;
+    color: #2f71cb;
+}
+@media screen and (max-width: 1200px){
+	.nav-items {
+        margin-left: -200px;
+    }
+}
+@media screen and (max-width: 720px){
+	.nav-items {
+        margin-left: -80px;
+    }
+}
